@@ -7,10 +7,10 @@ Main functions:
 6. Sends email to administartor in case content requirements are not fulfilled or web site is down.
 
 Details:
-§ The “content requirements” are strings that must be included in the HTML response
+- The “content requirements” are strings that must be included in the HTML response
 received from the server. As an example, one potential rule might be that the page at the URL
 “http://www.example.com/login” must contain the text “Please login:”.
-§ The checking period is configurable by a setting in the configuration file.
-§ The log file contains the checked URLs, their status and the response times.
-§ The program distinguishes between connection level problems (e.g. the web site is down) and content
+- The checking period is configurable by a setting in the configuration file.
+- The log file contains the checked URLs, their status and the response times.
+- The program distinguishes between connection level problems (e.g. the web site is down) and content
 problems (e.g. the content requirements were not fulfilled).
